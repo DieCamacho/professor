@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantMenu", "RestaurantMenu\RestaurantMenu.csproj", "{D8E28AE7-168E-4CF5-9AD3-1FB09E3296D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantMenu.Tests", "RestaurantMenu.Tests\RestaurantMenu.Tests.csproj", "{5262285A-69D0-425B-A7E8-73E4EC4C443F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E28AE7-168E-4CF5-9AD3-1FB09E3296D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E28AE7-168E-4CF5-9AD3-1FB09E3296D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E28AE7-168E-4CF5-9AD3-1FB09E3296D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E28AE7-168E-4CF5-9AD3-1FB09E3296D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5262285A-69D0-425B-A7E8-73E4EC4C443F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5262285A-69D0-425B-A7E8-73E4EC4C443F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5262285A-69D0-425B-A7E8-73E4EC4C443F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5262285A-69D0-425B-A7E8-73E4EC4C443F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

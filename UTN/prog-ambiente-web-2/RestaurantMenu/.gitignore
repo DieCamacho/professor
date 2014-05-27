@@ -1,0 +1,8 @@
+/packages
+/RestaurantMenu/bin
+/RestaurantMenu/obj
+/RestaurantMenu.Tests/bin
+/RestaurantMenu.Tests/obj
+*.[dll]
+*.[suo]
+*.[user]
