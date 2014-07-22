@@ -163,6 +163,10 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MealController.cs" />
+    <Compile Include="Controllers\MealTypeController.cs" />
+    <Compile Include="Controllers\RestCategoryController.cs" />
+    <Compile Include="Controllers\RestController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -282,12 +286,38 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\RestCategory\Index.cshtml" />
+    <Content Include="Views\RestCategory\Details.cshtml" />
+    <Content Include="Views\RestCategory\Create.cshtml" />
+    <Content Include="Views\RestCategory\Edit.cshtml" />
+    <Content Include="Views\RestCategory\Delete.cshtml" />
+    <Content Include="Views\Rest\Index.cshtml" />
+    <Content Include="Views\Rest\Details.cshtml" />
+    <Content Include="Views\Rest\Create.cshtml" />
+    <Content Include="Views\Rest\Edit.cshtml" />
+    <Content Include="Views\Rest\Delete.cshtml" />
+    <Content Include="Views\Meal\Index.cshtml" />
+    <Content Include="Views\Meal\Details.cshtml" />
+    <Content Include="Views\Meal\Create.cshtml" />
+    <Content Include="Views\Meal\Edit.cshtml" />
+    <Content Include="Views\Meal\Delete.cshtml" />
+    <Content Include="Views\MealType\Index.cshtml" />
+    <Content Include="Views\MealType\Details.cshtml" />
+    <Content Include="Views\MealType\Create.cshtml" />
+    <Content Include="Views\MealType\Edit.cshtml" />
+    <Content Include="Views\MealType\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantMenu.DataAccess\RestaurantMenu.DataAccess.csproj">
+      <Project>{d8ceda8a-dae4-42e8-bbc8-76f191ba2e1d}</Project>
+      <Name>RestaurantMenu.DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

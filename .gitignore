@@ -1,0 +1,13 @@
+*.suo
+*.suo
+UTN/prog-ambiente-web-2/RestaurantMenu.API/packages/**
+UTN/prog-ambiente-web-2/RestaurantMenu.API/RestaurantMenu.API/bin/**
+UTN/prog-ambiente-web-2/RestaurantMenu.API/RestaurantMenu.Data/bin/**
+UTN/prog-ambiente-web-2/RestaurantMenu.API/RestaurantMenu.Dto/bin/**
+UTN/prog-ambiente-web-2/RestaurantMenu.API/RestaurantMenu.API/obj/**
+UTN/prog-ambiente-web-2/RestaurantMenu.API/RestaurantMenu.Data/obj/**
+UTN/prog-ambiente-web-2/RestaurantMenu.API/RestaurantMenu.Dto/obj/**
+*.user
+UTN/prog-ambiente-web-2/RestaurantMenu/RestaurantMenu.DataAccess/bin/**
+UTN/prog-ambiente-web-2/RestaurantMenu/RestaurantMenu.DataAccess/obj/**
+*.suo
